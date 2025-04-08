@@ -12,6 +12,11 @@ A comprehensive image classification system with multiple inbuilt capabilities, 
 
 ### Run Flask API
 
+1. First install the requirements
+```bash
+pip install flask requests jsonify opencv-python ultralytics "nudenet>=3.4.2"
+```
+2. To run the API run the app.py file
 ```bash
 python app.py
 ```
